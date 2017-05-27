@@ -2,5 +2,5 @@
 - hosts: localhost
   connection: local
 
-  - include: servers.yml
+- include: servers.yml
 
