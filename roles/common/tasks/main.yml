@@ -1,5 +1,4 @@
 ---
-- name: just check if local is updated.
-  debug:
-    msg: "Hello Ansible."
+- name: just check if host is updated.
+  command: echo "Hello Ansible."
 
