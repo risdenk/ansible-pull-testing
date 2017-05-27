@@ -1,5 +1,4 @@
 ---
- tasks:
-     - name: just check if local is updated.
-       action: command echo "Hello Ansible."
+- name: just check if local is updated.
+  action: command echo "Hello Ansible."
 
