@@ -1,9 +1,6 @@
 ---
-- hosts: servers
-  user: root
+- hosts: localhost
   connection: local
 
-  tasks:
-     - name: just check if local is updated.
-       action: command echo "Hello Ansible."
+  - include: servers.yml
 
