@@ -1,4 +1,5 @@
 ---
 - name: just check if local is updated.
-  action: command echo "Hello Ansible."
+  debug:
+    msg: "Hello Ansible."
 
